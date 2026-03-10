@@ -1,13 +1,13 @@
 ﻿using System.Windows;
 
-namespace PRs
+namespace PR4
 {
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Page1()); // Страница по умолчанию
+            MainFrame.Navigate(new Page1());
         }
 
         private void BtnPage1_Click(object sender, RoutedEventArgs e) => MainFrame.Navigate(new Page1());

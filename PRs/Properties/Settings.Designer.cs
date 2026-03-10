@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PRs.Properties
+namespace PR4.Properties
 {
 
 

@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace PRs
+namespace PR4
 {
     public partial class Page1 : Page
     {
@@ -10,7 +10,6 @@ namespace PRs
 
         private void Calc_Click(object sender, RoutedEventArgs e)
         {
-            // 7. Проверка на заполненность
             if (string.IsNullOrEmpty(txtX.Text) || string.IsNullOrEmpty(txtY.Text) || string.IsNullOrEmpty(txtZ.Text))
             {
                 MessageBox.Show("Заполните все поля!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -19,7 +18,6 @@ namespace PRs
 
             if (double.TryParse(txtX.Text, out double x) && double.TryParse(txtY.Text, out double y) && double.TryParse(txtZ.Text, out double z))
             {
-                // Проверка ОДЗ
                 if (x < -1 || x > 1)
                 {
                     MessageBox.Show("x для arccos должен быть в диапазоне [-1, 1]", "Ошибка ОДЗ");
