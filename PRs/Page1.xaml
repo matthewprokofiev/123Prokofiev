@@ -6,7 +6,7 @@
         <StackPanel Margin="20" HorizontalAlignment="Left">
             <TextBlock Text="Задание 1: Расчет формулы" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
 
-            <Image Source="pack://application:,,,/Images/formula1.png" Height="80" Margin="0,0,0,15" ToolTip="Формула: γ = 5arctg(x) - 1/4arccos(x)..."/>
+            <Image Source="/images/formula1.png" Height="80" Margin="0,0,0,15" ToolTip="Формула: γ = 5arctg(x) - 1/4arccos(x)..."/>
 
             <UniformGrid Columns="2" Width="300" HorizontalAlignment="Left">
                 <Label Content="Введите x:" VerticalAlignment="Center" ToolTip="Значение x для arccos (от -1 до 1)"/>
