@@ -11,6 +11,7 @@
 
         <StackPanel Grid.Column="0" Margin="15">
             <TextBlock Text="Задание 3: Цикл и График" FontSize="16" FontWeight="Bold"/>
+            <Image Height="53" Source="/images/formula3.png" Stretch="Fill" Width="252"/>
             <Label Content="x0 (начало):"/>
             <TextBox x:Name="txtX0" Margin="2"/>
             <Label Content="xk (конец):"/>
@@ -24,7 +25,6 @@
 
             <Label Content="Список значений:"/>
             <TextBox x:Name="txtResults" Height="14" IsReadOnly="True" VerticalScrollBarVisibility="Auto" Background="#F9F9F9" ToolTip="Список (x, y)"/>
-            <Image Height="53" Source="/images/formula3.png" Stretch="Fill" Width="252"/>
         </StackPanel>
 
         <WindowsFormsHost Grid.Column="1" Margin="10" x:Name="WFHost">
